@@ -1,7 +1,7 @@
 #navbar {
 	position: fixed;
-	margin-left: 50px;
-	margin-right: 50px;
+	/* margin-left: 50px;
+	margin-right: 50px; */
 }
 
 a {
@@ -11,5 +11,9 @@ a {
 }
 
 #welcome-section {
-	position: absolute;
+	position: relative;
+}
+
+#footer {
+	position: relative;
 }

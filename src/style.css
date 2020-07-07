@@ -1,3 +1,15 @@
+#navbar {
+	position: fixed;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
 a {
 	text-decoration: none;
+	margin-right: 30px;
+	margin-left: 30px;
+}
+
+#welcome-section {
+	position: absolute;
 }

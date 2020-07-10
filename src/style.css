@@ -1,3 +1,12 @@
+/* Importing the Nunito Sans font from Google Fonts. */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,300;0,400;1,300&display=swap');
+
+body {
+	background-color: #939dab;
+	font-family: 'Nunito Sans', sans-serif;
+	color: white;
+}
+
 #navbar {
 	float: none;
 	position: fixed;
@@ -10,21 +19,65 @@
 	text-decoration: none;
 	margin-right: 30px;
 	margin-left: 30px;
-
+	color: white;
 }
 
 /* #welcome-section {
 
-}
+} */
 
-#projects {
+/* #projects {
 
-}
+} */
 
 #contact {
+	background-color: #324158;
+	width: 940px;
+	height: 631px;
+	padding-left: 20%;
+}
 
+h1, h2, h3 {
+	text-align: center;
+}
+
+/* form {
+
+} */
+
+input {
+	border: 0px;
+	text-align: left;
+	padding-bottom: 15px;
+}
+
+input[type=text] {
+	height: 40px;
+	width: 319px;
+}
+
+input[type=email] {
+	height: 40px;
+	width: 319px;
+}
+
+input[name=Message] {
+	height: 136px;
+	width: 319px;
+}
+
+input[type=submit] {
+	background-color: #00d646;
+	color: white;
+	font-size: 15px;
+	text-align: center;
+	height: 44px;
+	width: 319px;
 }
 
 #footer {
-
-} */
+	background-color: #324158;
+	height: 115px;
+	text-align: center;
+	font-size: 14px;
+}

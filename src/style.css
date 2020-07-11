@@ -110,6 +110,7 @@ input[type=submit] {
 	margin: 0;
 }
 
+/* mobile view */
 @media (max-width: 460px) {
 	h1 {
 		font-size: medium;
@@ -132,6 +133,7 @@ input[type=submit] {
 	}
 }
 
+/* tablet view */
 @media (max-width: 800px) {
 	#footer {
 		height: 100px;

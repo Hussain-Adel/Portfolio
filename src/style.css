@@ -12,6 +12,7 @@ body {
 	width: 100%;
 }
 
+/* navbar */
 #navbar {
 	float: none;
 	left: 50%;
@@ -58,7 +59,7 @@ h2 {
 	width: 940px;
 }
 
-#contact h3 {
+h3 {
 	font-size: 24px;
 }
 
@@ -68,23 +69,14 @@ p {
 
 input {
 	border: 0px;
+	height: 40px;
 	margin: 7.5px;
 	text-align: left;
-}
-
-input[type=text] {
-	height: 40px;
-	width: 319px;
-}
-
-input[type=email] {
-	height: 40px;
 	width: 319px;
 }
 
 input[name=Message] {
 	height: 136px;
-	width: 319px;
 }
 
 input[type=submit] {
@@ -96,7 +88,7 @@ input[type=submit] {
 	width: 324px;
 }
 
-#contact img {
+.logo {
 	height: 30px;
 	padding-top: 35px;
 	width: 30px;

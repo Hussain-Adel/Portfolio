@@ -68,7 +68,7 @@ p {
 }
 
 input {
-	border: 0px;
+	border: 0;
 	height: 40px;
 	margin: 7.5px;
 	text-align: left;
@@ -102,13 +102,16 @@ input[type=submit] {
 	height: 115px;
 	justify-content: center;
 	margin: 0;
-	width: 100%;
 }
 
 /* mobile view */
 @media (max-width: 460px) {
 	h1 {
-		font-size: medium;
+		font-size: 54;
+	}
+
+	input {
+		width: 90%;
 	}
 
 	#contact {
@@ -126,6 +129,10 @@ input[type=submit] {
 
 /* tablet view */
 @media (max-width: 800px) {
+	#contact {
+		width: 90vw;
+	}
+
 	#footer {
 		height: 100px;
 		width: 100vw;

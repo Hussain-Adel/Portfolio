@@ -14,11 +14,17 @@ body {
 
 /* navbar */
 #navbar {
+	align-items: center;
+	background-color: #939dab;
+	display: flex;
 	float: none;
+	justify-content: center;
 	left: 50%;
+	min-height: 75px;
 	position: fixed;
 	top: 5%;
 	transform: translate(-50%, -50%);
+	width: 100vw;
 }
 
 .nav-link {

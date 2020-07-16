@@ -36,8 +36,11 @@ body {
 
 /* welcome section */
 #welcome-section {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
 	height: 100vh;
-	padding-top: 20%;
+	justify-content: center;
 }
 
 h1 {
@@ -51,7 +54,39 @@ h2 {
 /* projects section */
 #projects {
 	height: 100vh;
-	padding-top: 5%;
+	padding: 10rem 2rem;
+	text-align: center;
+}
+
+.projects-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+	grid-gap: 4rem;
+	width: 100%;
+	max-width: 1280px;
+	margin: 0 auto;
+	margin-bottom: 6rem;
+}
+
+section {
+	background-color: #324158;
+	height: 380px;
+	width: 300px;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+img {
+	display: block;
+	height: 300px;
+	width: 300px;
+}
+
+h3 {
+	font-size: 24px;
 }
 
 /* contact section */
@@ -63,10 +98,6 @@ h2 {
 	height: 631px;
 	margin-bottom: 230px;
 	width: 940px;
-}
-
-h3 {
-	font-size: 24px;
 }
 
 p {
@@ -118,6 +149,10 @@ input[type=submit] {
 
 	input {
 		width: 90%;
+	}
+
+	#projects {
+		height: auto;
 	}
 
 	#contact {

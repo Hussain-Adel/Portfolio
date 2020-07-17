@@ -51,10 +51,14 @@ h2 {
 	font-size: 42px;
 }
 
+h3 {
+	font-size: 24px;
+}
+
 /* projects section */
 #projects {
 	height: 100vh;
-	padding: 10rem 2rem;
+	padding: 3rem 2rem;
 	text-align: center;
 }
 
@@ -85,7 +89,7 @@ img {
 	width: 300px;
 }
 
-h3 {
+h4 {
 	font-size: 24px;
 }
 
@@ -93,15 +97,46 @@ h3 {
 #contact {
 	align-self: center;
 	background-color: #324158;
-	display: flex;
-	flex-direction: row;
+	display: grid;
+	grid-column-gap: 50px;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
 	height: 631px;
 	margin-bottom: 230px;
+	margin-top: 100px;
 	width: 940px;
+}
+
+#contact h3 {
+	font-size: 24px;
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	height: fit-content;
+	width: fit-content;
+	margin: 115px 0 0 115px;
 }
 
 p {
 	font-size: 15px;
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 2;
+	grid-row-end: 3;
+	height: fit-content;
+	width: fit-content;
+	margin-left: 115px;
+}
+
+form {
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: 4;
+	height: fit-content;
+	width: fit-content;
+	margin: 115px 115px 115px 0;
 }
 
 input {
@@ -125,9 +160,21 @@ input[type=submit] {
 	width: 324px;
 }
 
+#contact section {
+	display: flex;
+	flex-direction: row;
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 3;
+	grid-row-end: 4;
+	height: fit-content;
+	width: fit-content;
+	margin-left: 115px;
+}
+
 .logo {
 	height: 30px;
-	padding-top: 35px;
+	padding: 7.5px;
 	width: 30px;
 }
 
@@ -156,9 +203,11 @@ input[type=submit] {
 	}
 
 	#contact {
+		display: flex;
 		flex-direction: column;
-		height: 100vh;
+		height: fit-content;
 		margin-bottom: 180px;
+		margin-top: auto;
 		width: 90vw;
 	}
 
@@ -171,6 +220,7 @@ input[type=submit] {
 /* tablet view */
 @media (max-width: 800px) {
 	#contact {
+		height: fit-content;
 		width: 90vw;
 	}
 

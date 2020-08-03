@@ -63,6 +63,11 @@ h3 {
 	text-align: center;
 }
 
+span {
+	font-size: 24px;
+	letter-spacing: 2.4px;
+}
+
 .projects-grid {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -123,7 +128,7 @@ p {
 	grid-row: 2 / 3;
 	height: fit-content;
 	width: fit-content;
-	margin-left: 115px;
+	margin: 0 115px;
 }
 
 form {

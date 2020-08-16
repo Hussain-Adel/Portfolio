@@ -21,13 +21,10 @@ body {
 	align-items: center;
 	background-color: #939dab;
 	display: flex;
-	float: none;
+	flex-direction: row;
 	justify-content: center;
-	left: 50%;
-	min-height: 75px;
+	min-height: 65px;
 	position: fixed;
-	top: 5%;
-	transform: translate(-50%, -50%);
 	width: 100vw;
 }
 
@@ -76,9 +73,10 @@ span {
 	max-width: 1280px;
 	margin: 0 auto;
 	margin-bottom: 6rem;
+	width: 100%;
 }
 
-section {
+.projects-grid section {
 	background-color: #324158;
 	height: 380px;
 	width: 300px;
@@ -181,7 +179,7 @@ input[type=submit] {
 	background-color: #324158;
 	display: flex;
 	font-size: 14px;
-	height: 115px;
+	height: 100px;
 	justify-content: center;
 	margin: 0;
 }
@@ -225,8 +223,7 @@ input[type=submit] {
 		width: 90vw;
 	}
 
-	#footer {
-		height: 100px;
-		width: 100vw;
+	input {
+		width: 90%;
 	}
 }

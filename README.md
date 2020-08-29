@@ -1,4 +1,4 @@
-# Hussain-Adel
+# Hussain Adel
 ## This is My Portifolio
 
-It is still under development
+>This is still under development
